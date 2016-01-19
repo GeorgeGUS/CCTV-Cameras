@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="UTF-8">
+  <meta name="description" content="Описание сайта">
+  <meta name="keywords" content="Ключевые слова">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-dns-prefetch-control" content="on">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+  <title>Городские камеры</title>
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="plugins/font-awesome-4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!--------------ЯНДЕКС-КАРТЫ---------------->
+  <script src="https://api-maps.yandex.ru/1.1/index.xml" type="text/javascript"></script>
+  <!--------------ВИДЕОПЛЕЕР---------------->
+  <script rel="subresource" type="text/javascript" src="flowplayer-3.2.11.min.js"></script>
+  <!--------------ГУГЛ-ШРИФТЫ---------------->
+  <link rel="dns-prefetch" href='https://fonts.googleapis.com/css?family=Roboto:400,700,400italic,700italic|Ubuntu' rel='stylesheet' type='text/css'></head>
+
+<body>
+  <!-- ___________________________ЛЕВЫЙ СТОЛБЕЦ___________________________ -->
+  <div class="left-column">
+    <a class="logo" href="http://novgorod.rtrs.ru/" target="_blank"></a>
+
+    <!-- ******************************МЕНЮ****************************** -->
+    <ul class="navbar">
+      <li>
+        <a href="index.html" class="navbar-item"> <i class="fa fa-home fa-lg"></i>
+          Главная
+        </a>
+      </li>
+      <li>
+        <a href="nortpc-cams.html" class="navbar-item"> <i class="fa fa-video-camera fa-lg"></i>
+          Камеры НОРТПЦ
+        </a>
+      </li>
+      <li>
+        <a href="#" class="navbar-item active">
+          <i class="fa fa-car fa-lg"></i>
+          Городские камеры
+        </a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- __________________________СРЕДНИЙ СТОЛБЕЦ__________________________ -->
+  <div class="cam-table clearfix">
+    <figure class="cam-box city">
+      <figcaption class="font-effect-outline">Площадь Победы-Софийская</figcaption>
+      <section id="rtmp_player">
+        <object width="400" height="300" id="rtmp_player_api" name="rtmp_player_api" data="http://www.novgorod.ru/video/lord-novgorod/flowplayer-3.2.12.swf" type="application/x-shockwave-flash">
+          <param name="allowfullscreen" value="true">
+          <param name="allowscriptaccess" value="always">
+          <param name="quality" value="high">
+          <param name="bgcolor" value="#000000">
+          <param name="flashvars" value="config={&quot;clip&quot;:{&quot;url&quot;:&quot;camera.stream&quot;,&quot;live&quot;:true,&quot;provider&quot;:&quot;rtmp1&quot;},&quot;plugins&quot;:{&quot;rtmp1&quot;:{&quot;url&quot;:&quot;flowplayer.rtmp-3.2.10.swf&quot;,&quot;netConnectionUrl&quot;:&quot;rtmp://213.148.160.56/live&quot;}},&quot;playerId&quot;:&quot;rtmp_player&quot;,&quot;playlist&quot;:[{&quot;url&quot;:&quot;camera.stream&quot;,&quot;live&quot;:true,&quot;provider&quot;:&quot;rtmp1&quot;}]}"></object>
+      </section>
+    </figure>
+
+    <figure class="cam-box">
+      <figcaption class="font-effect-outline">Площадь Строителей</figcaption>
+      <section id="player_8100">
+        <object width="100%" height="100%" id="player_8100_api" data="http://www.novgorod.ru/video/lord-novgorod/flowplayer-3.2.7.swf" type="application/x-shockwave-flash">
+          <param name="allowfullscreen" value="true">
+          <param name="allowscriptaccess" value="always">
+          <param name="quality" value="high">
+          <param name="cachebusting" value="false">
+          <param name="bgcolor" value="#000000">
+          <param name="flashvars" value="config={&quot;clip&quot;:{&quot;autoPlay&quot;:true,&quot;scale&quot;:&quot;fit&quot;,&quot;autoBuffering&quot;:true,&quot;bufferLength&quot;:1,&quot;url&quot;:&quot;http://88.151.188.51:8891/video&quot;},&quot;plugins&quot;:{&quot;controls&quot;:null},&quot;playerId&quot;:&quot;player_8100&quot;,&quot;playlist&quot;:[{&quot;autoPlay&quot;:true,&quot;live&quot;:true,&quot;scale&quot;:&quot;fit&quot;,&quot;autoBuffering&quot;:true,&quot;bufferLength&quot;:0,&quot;url&quot;:&quot;http://88.151.188.51:8891/video&quot;}]}"></object>
+      </section>
+    </figure>
+
+    <figure class="cam-box">
+      <figcaption class="font-effect-outline">Колмово</figcaption>
+      <section id="player_8100">
+        <object width="100%" height="100%" id="player_8100_api" data="http://www.novgorod.ru/video/lord-novgorod/flowplayer-3.2.7.swf" type="application/x-shockwave-flash">
+          <param name="allowfullscreen" value="true">
+          <param name="allowscriptaccess" value="always">
+          <param name="quality" value="high">
+          <param name="cachebusting" value="false">
+          <param name="bgcolor" value="#000000">
+          <param name="flashvars" value="config={&quot;clip&quot;:{&quot;autoPlay&quot;:true,&quot;scale&quot;:&quot;fit&quot;,&quot;autoBuffering&quot;:true,&quot;bufferLength&quot;:1,&quot;url&quot;:&quot;http://88.151.188.51:8892/video&quot;},&quot;plugins&quot;:{&quot;controls&quot;:null},&quot;playerId&quot;:&quot;player_8100&quot;,&quot;playlist&quot;:[{&quot;autoPlay&quot;:true,&quot;live&quot;:true,&quot;scale&quot;:&quot;fit&quot;,&quot;autoBuffering&quot;:true,&quot;bufferLength&quot;:0,&quot;url&quot;:&quot;http://88.151.188.51:8892/video&quot;}]}"></object>
+      </section>
+    </figure>
+
+    <figure class="cam-box">
+      <figcaption class="font-effect-outline">Перекресток улиц Нехинская и Октябрьская</figcaption>
+      <section id="player_8100">
+        <object width="100%" height="100%" id="player_8100_api" data="http://www.novgorod.ru/video/lord-novgorod/flowplayer-3.2.7.swf" type="application/x-shockwave-flash">
+          <param name="allowfullscreen" value="true">
+          <param name="allowscriptaccess" value="always">
+          <param name="quality" value="high">
+          <param name="cachebusting" value="false">
+          <param name="bgcolor" value="#000000">
+          <param name="flashvars" value="config={&quot;clip&quot;:{&quot;autoPlay&quot;:true,&quot;scale&quot;:&quot;fit&quot;,&quot;autoBuffering&quot;:true,&quot;bufferLength&quot;:1,&quot;url&quot;:&quot;http://88.151.188.51:8893/video&quot;},&quot;plugins&quot;:{&quot;controls&quot;:null},&quot;playerId&quot;:&quot;player_8100&quot;,&quot;playlist&quot;:[{&quot;autoPlay&quot;:true,&quot;live&quot;:true,&quot;scale&quot;:&quot;fit&quot;,&quot;autoBuffering&quot;:true,&quot;bufferLength&quot;:0,&quot;url&quot;:&quot;http://88.151.188.51:8893/video&quot;}]}"></object>
+      </section>
+    </figure>
+
+    <figure class="cam-box">
+      <figcaption class="font-effect-outline">Перекресток улиц Федоровский Ручей и Большой Московской</figcaption>
+      <section id="player_8100">
+        <object width="100%" height="100%" id="player_8100_api" data="http://www.novgorod.ru/video/lord-novgorod/flowplayer-3.2.7.swf" type="application/x-shockwave-flash">
+          <param name="allowfullscreen" value="true">
+          <param name="allowscriptaccess" value="always">
+          <param name="quality" value="high">
+          <param name="cachebusting" value="false">
+          <param name="bgcolor" value="#000000">
+          <param name="flashvars" value="config={&quot;clip&quot;:{&quot;autoPlay&quot;:true,&quot;scale&quot;:&quot;fit&quot;,&quot;autoBuffering&quot;:true,&quot;bufferLength&quot;:1,&quot;url&quot;:&quot;http://88.151.188.51:8894/video&quot;},&quot;plugins&quot;:{&quot;controls&quot;:null},&quot;playerId&quot;:&quot;player_8100&quot;,&quot;playlist&quot;:[{&quot;autoPlay&quot;:true,&quot;live&quot;:true,&quot;live&quot;:true,&quot;scale&quot;:&quot;fit&quot;,&quot;autoBuffering&quot;:true,&quot;bufferLength&quot;:0,&quot;url&quot;:&quot;http://88.151.188.51:8894/video&quot;}]}"></object>
+      </section>
+    </figure>
+
+    <figure class="cam-box">
+      <figcaption class="font-effect-outline">Перекресток проспектов Мира и Корсунова</figcaption>
+      <section id="player_8100">
+        <object width="100%" height="100%" id="player_8100_api" data="http://www.novgorod.ru/video/lord-novgorod/flowplayer-3.2.7.swf" type="application/x-shockwave-flash">
+          <param name="allowfullscreen" value="true">
+          <param name="allowscriptaccess" value="always">
+          <param name="quality" value="high">
+          <param name="cachebusting" value="false">
+          <param name="bgcolor" value="#000000">
+          <param name="flashvars" value="config={&quot;clip&quot;:{&quot;autoPlay&quot;:true,&quot;scale&quot;:&quot;fit&quot;,&quot;autoBuffering&quot;:true,&quot;bufferLength&quot;:1,&quot;url&quot;:&quot;http://88.151.188.51:8895/video&quot;},&quot;plugins&quot;:{&quot;controls&quot;:null},&quot;playerId&quot;:&quot;player_8100&quot;,&quot;playlist&quot;:[{&quot;autoPlay&quot;:true,&quot;live&quot;:true,&quot;scale&quot;:&quot;fit&quot;,&quot;autoBuffering&quot;:true,&quot;bufferLength&quot;:0,&quot;url&quot;:&quot;http://88.151.188.51:8895/video&quot;}]}"></object>
+      </section>
+    </figure>
+
+    <figure class="cam-box">
+      <figcaption class="font-effect-outline">Перекресток проспекта Мира и улицы Нехинской</figcaption>
+      <section id="player_8100">
+        <object width="100%" height="100%" id="player_8100_api" data="http://www.novgorod.ru/video/lord-novgorod/flowplayer-3.2.7.swf" type="application/x-shockwave-flash">
+          <param name="allowfullscreen" value="true">
+          <param name="allowscriptaccess" value="always">
+          <param name="quality" value="high">
+          <param name="cachebusting" value="false">
+          <param name="bgcolor" value="#000000">
+          <param name="flashvars" value="config={&quot;clip&quot;:{&quot;autoPlay&quot;:true,&quot;scale&quot;:&quot;fit&quot;,&quot;autoBuffering&quot;:true,&quot;bufferLength&quot;:1,&quot;url&quot;:&quot;http://88.151.188.51:8896/video&quot;},&quot;plugins&quot;:{&quot;controls&quot;:null},&quot;playerId&quot;:&quot;player_8100&quot;,&quot;playlist&quot;:[{&quot;autoPlay&quot;:true,&quot;live&quot;:true,&quot;scale&quot;:&quot;fit&quot;,&quot;autoBuffering&quot;:true,&quot;bufferLength&quot;:0,&quot;url&quot;:&quot;http://88.151.188.51:8896/video&quot;}]}"></object>
+      </section>
+    </figure>
+
+    <figure class="cam-box">
+      <figcaption class="font-effect-outline">Перекресток улиц Державина и Большой Московской</figcaption>
+      <section id="player_8100">
+        <object width="100%" height="100%" id="player_8100_api" data="http://www.novgorod.ru/video/lord-novgorod/flowplayer-3.2.7.swf" type="application/x-shockwave-flash">
+          <param name="allowfullscreen" value="true">
+          <param name="allowscriptaccess" value="always">
+          <param name="quality" value="high">
+          <param name="cachebusting" value="false">
+          <param name="bgcolor" value="#000000">
+          <param name="flashvars" value="config={&quot;clip&quot;:{&quot;autoPlay&quot;:true,&quot;scale&quot;:&quot;fit&quot;,&quot;autoBuffering&quot;:true,&quot;bufferLength&quot;:1,&quot;url&quot;:&quot;http://88.151.188.51:8897/video&quot;},&quot;plugins&quot;:{&quot;controls&quot;:null},&quot;playerId&quot;:&quot;player_8100&quot;,&quot;playlist&quot;:[{&quot;autoPlay&quot;:true,&quot;live&quot;:true,&quot;scale&quot;:&quot;fit&quot;,&quot;autoBuffering&quot;:true,&quot;bufferLength&quot;:0,&quot;url&quot;:&quot;http://88.151.188.51:8897/video&quot;}]}"></object>
+      </section>
+    </figure>
+
+    <figure class="cam-box">
+      <figcaption class="font-effect-outline">Перекресток улиц Щусева и Большой Санкт-Петербургской</figcaption>
+      <section id="player_8100">
+        <object width="100%" height="100%" id="player_8100_api" data="http://www.novgorod.ru/video/lord-novgorod/flowplayer-3.2.7.swf" type="application/x-shockwave-flash">
+          <param name="allowfullscreen" value="true">
+          <param name="allowscriptaccess" value="always">
+          <param name="quality" value="high">
+          <param name="cachebusting" value="false">
+          <param name="bgcolor" value="#000000">
+          <param name="flashvars" value="config={&quot;clip&quot;:{&quot;autoPlay&quot;:true,&quot;scale&quot;:&quot;fit&quot;,&quot;autoBuffering&quot;:true,&quot;bufferLength&quot;:1,&quot;url&quot;:&quot;http://88.151.188.51:8898/video&quot;},&quot;plugins&quot;:{&quot;controls&quot;:null},&quot;playerId&quot;:&quot;player_8100&quot;,&quot;playlist&quot;:[{&quot;autoPlay&quot;:true,&quot;live&quot;:true,&quot;scale&quot;:&quot;fit&quot;,&quot;autoBuffering&quot;:true,&quot;bufferLength&quot;:0,&quot;url&quot;:&quot;http://88.151.188.51:8898/video&quot;}]}"></object>
+      </section>
+    </figure>
+
+    <figure class="cam-box">
+      <figcaption class="font-effect-outline">Псковская улица</figcaption>
+      <section id="player_8100">
+        <object width="100%" height="100%" id="player_8100_api" data="http://www.novgorod.ru/video/lord-novgorod/flowplayer-3.2.7.swf" type="application/x-shockwave-flash">
+          <param name="allowfullscreen" value="true">
+          <param name="allowscriptaccess" value="always">
+          <param name="quality" value="high">
+          <param name="cachebusting" value="false">
+          <param name="bgcolor" value="#000000">
+          <param name="flashvars" value="config={&quot;clip&quot;:{&quot;autoPlay&quot;:true,&quot;scale&quot;:&quot;fit&quot;,&quot;autoBuffering&quot;:true,&quot;bufferLength&quot;:1,&quot;url&quot;:&quot;http://88.151.188.51:8899/video&quot;},&quot;plugins&quot;:{&quot;controls&quot;:null},&quot;playerId&quot;:&quot;player_8100&quot;,&quot;playlist&quot;:[{&quot;autoPlay&quot;:true,&quot;live&quot;:true,&quot;scale&quot;:&quot;fit&quot;,&quot;autoBuffering&quot;:true,&quot;bufferLength&quot;:0,&quot;url&quot;:&quot;http://88.151.188.51:8899/video&quot;}]}"></object>
+      </section>
+    </figure>
+
+    <figure class="cam-box">
+      <figcaption class="font-effect-outline">Перекресток проспекта А. Корсунова и улицы Ломоносова</figcaption>
+      <section id="player_8100">
+        <object width="100%" height="100%" id="player_8100_api" data="http://www.novgorod.ru/video/lord-novgorod/flowplayer-3.2.7.swf" type="application/x-shockwave-flash">
+          <param name="allowfullscreen" value="true">
+          <param name="allowscriptaccess" value="always">
+          <param name="quality" value="high">
+          <param name="cachebusting" value="false">
+          <param name="bgcolor" value="#000000">
+          <param name="flashvars" value="config={&quot;clip&quot;:{&quot;autoPlay&quot;:true,&quot;scale&quot;:&quot;fit&quot;,&quot;autoBuffering&quot;:true,&quot;bufferLength&quot;:1,&quot;url&quot;:&quot;http://88.151.188.51:8900/video&quot;},&quot;plugins&quot;:{&quot;controls&quot;:null},&quot;playerId&quot;:&quot;player_8100&quot;,&quot;playlist&quot;:[{&quot;autoPlay&quot;:true,&quot;live&quot;:true,&quot;scale&quot;:&quot;fit&quot;,&quot;autoBuffering&quot;:true,&quot;bufferLength&quot;:0,&quot;url&quot;:&quot;http://88.151.188.51:8900/video&quot;}]}"></object>
+      </section>
+    </figure>
+  </div>
+
+  <!-- ___________________________ПРАВЫЙ СТОЛБЕЦ__________________________ -->
+  <div class="right-column">
+    <a class="logo" href="index.html"></a>
+    <p>
+      На данной странице расположены камеры наблюдения за движением городского транспорта
+      <br>ЦДС ОТ В. Новгорода</p>
+    <a href="https://maps.yandex.ru/24/veliky-novgorod/?l=map%2Ctrf%2Ctrfe&ll=31.253517%2C58.527107&z=13" target="_blank" title="Переход на страницу maps.yandex.ru">
+      <h3>Яндекс Пробки</h3>
+    </a>
+    <div id="YMapsID" style="width:230px;height:210px"></div>
+  </div>
+
+  <script type="text/javascript">
+    // Создает обработчик события window.onLoad
+    YMaps.jQuery(function () {
+      // Создает экземпляр карты и привязывает его к созданному контейнеру
+      var map = new YMaps.Map(YMaps.jQuery("#YMapsID")[0]);
+
+      // Устанавливает начальные параметры отображения карты: центр карты и коэффициент масштабирования
+      map.setCenter(new YMaps.GeoPoint(31.26750372333069, 58.533896056768356), 12);
+      //Включает сервис Пробки
+      var traffic = new YMaps.Traffic.Control();
+      map.addControl(traffic, new YMaps.ControlPosition(YMaps.ControlPosition.BOTTOM_LEFT, new YMaps.Point(6, 1)));
+      traffic.show();
+      traffic.setState({
+        infoLayerShown: true
+      });
+    });
+  </script>
+</body>
+
+</html>

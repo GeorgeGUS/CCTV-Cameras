@@ -1,0 +1,302 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', 'Arial', sans-serif;
+  font-size: 0;
+}
+
+html {
+  background: #2c2747 url(../images/backgrounds/rtrs-main-back.png) no-repeat;
+  background-size: cover;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+h3 {
+  font-size: 26px;
+  margin: 0;
+  text-align: center;
+  color: rgb(255, 135, 91);
+  text-shadow: 1px 1px 2px #000000;
+}
+
+p, li {
+  padding: 0 15px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2em;
+  text-align: justify;
+
+  color: #ffb092;
+  text-shadow: 1px 1px 2px #000000;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+}
+
+/*
+  _   _ _____    _    ____  _____ ____
+ | | | | ____|  / \  |  _ \| ____|  _ \
+ | |_| |  _|   / _ \ | | | |  _| | |_) |
+ |  _  | |___ / ___ \| |_| | |___|  _ <
+ |_| |_|_____/_/   \_\____/|_____|_| \_\
+
+*/
+
+.main-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+a.lightsaber.weider {
+  display: block;
+  margin-left: 5px;
+  width: 195px;
+  height: 45px;
+  background: url(../images/lightsaber-weider.png) no-repeat 50%;
+  background-size: 100% auto;
+}
+
+a.lightsaber.kenobi {
+  display: block;
+  width: 200px;
+  height: 45px;
+  background: url(../images/lightsaber-kenobi.png) no-repeat 50%;
+  background-size: 100% auto;
+}
+/*
+a.rtrs {
+  display: inline-block;
+  text-align: right;
+  margin-top: 2px;
+  width: 64px;
+  height: 53px;
+  background: url(images/surveillance-camera.png) right no-repeat;
+  background-size: contain;
+  box-shadow: inset 0 0 20px 5px rgba(127, 127, 127, 0.5);
+}
+*/
+
+/********************МЕНЮ********************/
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 150px;
+  padding-left: 75px;
+  border-radius: 0 25px 25px 0;
+  width: 66%;
+  height: 45px;
+  /*  box-shadow: -615px 0px 0 3px rgba(150, 150, 150, 0.75), -630px 0px 0 6px rgba(10, 10, 150, 0.75), -645px 0px 0 9px rgba(150, 10, 10, 0.75);*/
+}
+.navbar.weider {
+  background-image: linear-gradient(to bottom,
+  transparent 15%,
+  rgba(190, 35, 20, 0.85) 35%,
+  rgba(205, 20, 0, 0.95) 40%,
+  rgba(215, 20, 0, 0.95) 60%,
+  rgba(190, 35, 20, 0.85) 65%,
+  transparent 85%);
+}
+.navbar.kenobi {
+  background-image: linear-gradient(to bottom,
+  transparent 15%,
+  rgba(27, 77, 177, 0.85) 35%,
+  rgba(0, 85, 245, 0.95) 40%,
+  rgba(0, 85, 245, 0.95) 60%,
+  rgba(27, 77, 177, 0.85) 65%,
+  transparent 85%);
+}
+
+.navbar-item {
+  display: inline-block;
+  width: 200px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: center;
+  padding: 7px 15px;
+  margin-top: 5px;
+/*border-left: 1px solid #2f2f2f;*/
+  color: #FFFFFF;
+/*background-color: rgba(106, 106, 106, 0.7);*/
+  text-shadow: 1px 1px 2px #000000;
+}
+
+/*
+.navbar-item:hover {
+  background-color: rgba(0, 93, 219, 0.8);
+}
+*/
+
+.navbar-item:active {
+  box-shadow: inset 0 3px 5px rgba(10, 10, 10, 0.4);
+}
+
+.kenobi>.navbar-item:hover {
+  background-color: rgba(0, 56, 144, 0.8);
+}
+.weider>.navbar-item:hover {
+  border-radius: 15px;
+  background-image: linear-gradient(to bottom,
+  rgba(220, 40, 20, 0.9),
+  rgba(160, 20, 0, 0.9));
+  box-shadow: 0 0 6px 5px rgba(205, 25, 0, 0.8);
+}
+
+/*
+  _____ _     _____        __    ____   _____  __
+ |  ___| |   / _ \ \      / /   | __ ) / _ \ \/ /
+ | |_  | |  | | | \ \ /\ / /____|  _ \| | | \  /
+ |  _| | |__| |_| |\ V  V /_____| |_) | |_| /  \
+ |_|   |_____\___/  \_/\_/      |____/ \___/_/\_\
+
+*/
+
+.flow-box{
+  font-size: 15px;
+  width: 250px;
+  min-height: 200px;
+  background: rgba(127, 127, 127, 0.75);
+  border: 2px solid rgba(195, 79, 64, 0.5);
+  border-radius: 10px;
+}
+.flow-box-header{
+  background: rgba(60, 60, 60, 0.85);
+  border-radius: 10px 10px 0 0;
+}
+.flow-box-header h3{
+  font-size: 1.5em;
+  margin: 0;
+  padding: 5px;
+  color:rgb(255, 135, 91);
+}
+.flow-box-content li{
+  margin: 0 -25px;
+  padding: 0;
+  list-style: none;
+}
+.flow-box-content li img{
+  vertical-align: middle;
+}
+.flow-box-content li a{
+  position: relative;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-size: 15px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #ffb092;
+}
+
+.flow-box-content li a:hover{
+  text-decoration:underline;
+  -webkit-filter: hue-rotate(-15deg);
+}
+
+.flow-box-content li a::before{
+  content:'=>';
+  padding-right: 10px;
+  text-shadow: 1px 1px 1px black;
+}
+
+.flow-box.links{
+  float: left;
+  margin-left: 5px;
+  margin-top: 150px;
+}
+
+.flow-box.best-employeer{
+  position: absolute;
+  right: 45px;
+  top: 100px;
+  font-size: 12px;
+  width: 200px;
+  min-height: 200px;
+
+}
+.flow-box.best-employeer .employeer-photo{
+  margin: 20px auto;
+  width: 150px;
+  height: 190px;
+  vertical-align: middle;
+  background: white;
+  border:6px solid #F6B267;
+  box-shadow:0 0 0 4px #B77D3E;
+}
+.employeer-photo strong{
+  display: block;
+  text-align: center;
+  width: 200px;
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 82px;
+  margin-left: -25px;
+/*  line-height: 150px;*/
+  vertical-align: middle;
+  color: brown;
+  transform: rotate(-54deg);
+  outline: 2px solid;
+}
+/*
+   ____ ___  _   _ _____  _    ___ _   _ _____ ____
+  / ___/ _ \| \ | |_   _|/ \  |_ _| \ | | ____|  _ \
+ | |  | | | |  \| | | | / _ \  | ||  \| |  _| | |_) |
+ | |__| |_| | |\  | | |/ ___ \ | || |\  | |___|  _ <
+  \____\___/|_| \_| |_/_/   \_\___|_| \_|_____|_| \_\
+*/
+
+.container {
+  margin: 0 auto;
+  margin-top: 60px;
+  max-width: 900px;
+  min-height: 400px;
+  background: rgba(127, 127, 127, 0.75);
+  border: 2px solid rgba(195, 79, 64, 0.5);
+  border-radius: 10px;
+}
+.container h3{
+  margin-top: 20px;
+}
+.container p{
+  text-indent: 1.5em;
+}
+/*
+  _____ ___   ___ _____ _____ ____
+ |  ___/ _ \ / _ \_   _| ____|  _ \
+ | |_ | | | | | | || | |  _| | |_) |
+ |  _|| |_| | |_| || | | |___|  _ <
+ |_|   \___/ \___/ |_| |_____|_| \_\
+
+*/
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: inherit;
+  padding: 7px;
+  text-align: center;
+}
+
+footer.copyright {
+  margin: 0 auto;
+}
+
+footer .copyright p {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 14px;
+  color: #CCC;
+}
